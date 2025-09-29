@@ -29,7 +29,7 @@ public class MainService {
 			System.out.println(u3.getPublicPosts());
 			
 			u4.createPage("Microsoft in Ventspils", "Info about microsoft in ventspils");
-			u4.createPost(PostType.publicPost, "Hello in my page", "Microsoft in Ventspils");
+			u4.createPost(PostType.publicPost, "Hello in my page ", "Microsoft in Ventspils");
 			u4.createPost(PostType.publicPost, "Discount for Ventspils users", "Microsoft in Ventspils");
 
 			System.out.println("Ventspils page: " + u4.getPages().get(0).getPosts());

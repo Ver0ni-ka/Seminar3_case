@@ -17,7 +17,7 @@ public class User {
 	}
 	
 	public String toString() {
-		return id + "";//We added one value of class string so return THE string
+		return id + "";
 	}
 	
 	
